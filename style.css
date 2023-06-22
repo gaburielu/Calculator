@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "DIGITALDREAM";
+  src: url("/file/DIGITALDREAM.ttf") format("truetype");
+}
+body {
+  background-color: #f2efdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "DIGITALDREAM";
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vw;
+  max-width: 500px;
+  max-height: 700px;
+  min-width: 250px;
+  min-height: 380px;
+  align-items: center;
+  padding: 25px;
+  background-color: #aebfbe;
+  gap: 30px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.resultPort {
+  background-color: #59554c;
+  height: 20vh;
+  min-height: 50px;
+  max-height: 100px;
+  width: 70vw;
+  max-width: 460px;
+  min-width: 230px;
+  border-radius: 10px;
+  color: black;
+  padding: 5px 20px;
+  text-align: right;
+  overflow: hidden;
+}
+.content{
+    margin-top: 15px;
+}
+.history{
+    font-size: small;
+    font-weight: bolder;
+}
+.key {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 75vw;
+  height: 60vw;
+  max-width: 500px;
+  max-height: 700px;
+  min-width: 230px;
+  min-height: 280px;
+  background-color: #d0d9d4;
+  border-radius: 15px;
+}
+button {
+  font-family: "BrunoAceSC";
+  border-radius: 5px;
+  cursor: pointer;
+}
+.headKey {
+  display: flex;
+  justify-content: space-around;
+  height: 12vh;
+  margin: 4vh 2vw 2vh 2vw;
+  gap: 10px;
+}
+.headKey button {
+  width: 30vw;
+  min-width: 30px;
+}
+.bodyKey {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  height: 46vh;
+  margin: 2vh 2vw;
+  gap: 10px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #59554c;
+  }
