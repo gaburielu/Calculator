@@ -1,6 +1,6 @@
 @font-face {
   font-family: "DIGITALDREAM";
-  src: url("./DIGITALDREAM.ttf") format("truetype");
+  src: url("/DIGITALDREAM.ttf") format("truetype");
 }
 body {
   background-color: #f2efdf;
